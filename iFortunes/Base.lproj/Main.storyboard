@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="enG-BM-gtR">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <scenes>
+        <!--SLJViewController-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController title="SLJViewController" id="vXZ-lx-hvc" customClass="SLJFortunesViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome! Tap the crystal ball to see your fortune." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="McF-YP-uhH">
+                                <rect key="frame" x="16" y="28" width="295" height="65"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dGp-2v-qQp">
+                                <rect key="frame" x="-105" y="185" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CrystalBall.png" translatesAutoresizingMaskIntoConstraints="NO" id="zNM-Lj-5yG">
+                                <rect key="frame" x="-115" y="109" width="551" height="373"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gz5-Ig-a08">
+                                <rect key="frame" x="48" y="192" width="225" height="143"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.45882356169999999" green="0.78823536630000002" blue="0.82352948189999997" alpha="1" colorSpace="deviceRGB"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="jpD-iT-sOw" appends="YES" id="kUK-qf-n5m"/>
+                        </connections>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Crystal Ball" image="crystal_ball.png" id="e4W-xd-Py3"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="fortuneLabel" destination="gz5-Ig-a08" id="km1-rk-Dtw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="up" id="jpD-iT-sOw">
+                    <connections>
+                        <segue destination="hW2-w3-sir" kind="modal" identifier="enterSecretAnswer" id="hqK-a4-4Nn"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="646" y="211"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="3PU-iQ-J46">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="enG-BM-gtR" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="qVx-nd-VFE">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="viewControllers" id="QiK-Ih-snw"/>
+                        <segue destination="bY9-ui-yka" kind="relationship" relationship="viewControllers" id="Nwc-Eb-TZZ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gqf-yI-FrV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="122" y="211"/>
+        </scene>
+        <!--Input View Controller-->
+        <scene sceneID="eP8-QK-qwP">
+            <objects>
+                <viewController storyboardIdentifier="SecretAnswerInputViewController" id="hW2-w3-sir" customClass="SLJInputViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ooD-nA-1nB"/>
+                        <viewControllerLayoutGuide type="bottom" id="U6K-GI-5ja"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aQs-6O-cV9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tIZ-Y3-Non">
+                                <rect key="frame" x="47" y="83" width="220" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="hW2-w3-sir" id="Y4R-EG-npJ"/>
+                                </connections>
+                            </textField>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xua-71-a6V">
+                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                                <items>
+                                    <navigationItem title="New Secret Fortune" id="NfT-kH-RZO">
+                                        <barButtonItem key="leftBarButtonItem" title="Save" id="8cO-E3-fQC">
+                                            <connections>
+                                                <action selector="saveButtonTapped:" destination="hW2-w3-sir" id="k6G-D5-AUW"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Cancel" id="Sgt-Qc-XMG">
+                                            <connections>
+                                                <action selector="cancelButtonTapped:" destination="hW2-w3-sir" id="Oaw-xJ-uix"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="saveButton" destination="8cO-E3-fQC" id="IBM-jV-w0E"/>
+                        <outlet property="textField" destination="tIZ-Y3-Non" id="mbM-cY-Iav"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aka-Vv-a4e" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1103" y="211"/>
+        </scene>
+        <!--Answers Table View Controller-->
+        <scene sceneID="H1Y-MJ-6xP">
+            <objects>
+                <tableViewController id="Q47-Ss-Wp2" customClass="SLJAnswersTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="3RN-4g-tmx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AnswerCell" id="Xrh-Z4-73C">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Xrh-Z4-73C" id="Mbh-rS-izr">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Q47-Ss-Wp2" id="vlj-51-G0B"/>
+                            <outlet property="delegate" destination="Q47-Ss-Wp2" id="ZZ4-7Z-jVM"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="ASf-Jw-wUf">
+                        <barButtonItem key="rightBarButtonItem" title="Add" id="QMl-qp-efn">
+                            <connections>
+                                <segue destination="xbW-dq-Fc3" kind="modal" identifier="showAnswerInput" id="5y4-Lx-aN1"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="48V-II-ljY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="716" y="901"/>
+        </scene>
+        <!--Fortunes-->
+        <scene sceneID="PEF-EC-iYN">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bY9-ui-yka" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Fortunes" image="help.png" id="nI0-OF-KxU"/>
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ZSC-Gb-Hnh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Q47-Ss-Wp2" kind="relationship" relationship="rootViewController" id="9oq-LY-SEd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dx6-UE-741" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="120" y="901"/>
+        </scene>
+        <!--Input View Controller-->
+        <scene sceneID="xWx-FH-NVD">
+            <objects>
+                <viewController storyboardIdentifier="AnswersInputViewController" id="xbW-dq-Fc3" customClass="SLJInputViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ObN-vb-nHz"/>
+                        <viewControllerLayoutGuide type="bottom" id="LQy-Gn-347"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Qb5-iB-ysZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oFq-Uz-qMD">
+                                <rect key="frame" x="47" y="83" width="220" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="xbW-dq-Fc3" id="yj7-cB-mlQ"/>
+                                </connections>
+                            </textField>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KOM-oS-Ri2">
+                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                                <items>
+                                    <navigationItem title="New Fortune" id="I2I-Sv-svt">
+                                        <barButtonItem key="leftBarButtonItem" title="Save" id="M22-3m-euY">
+                                            <connections>
+                                                <action selector="saveButtonTapped:" destination="xbW-dq-Fc3" id="FMo-XK-iRa"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Cancel" id="5yZ-jV-mka">
+                                            <connections>
+                                                <action selector="cancelButtonTapped:" destination="xbW-dq-Fc3" id="XGx-Fm-nzD"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="saveButton" destination="M22-3m-euY" id="ZTE-GK-IdP"/>
+                        <outlet property="textField" destination="oFq-Uz-qMD" id="Lmo-Uj-Ro7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iI8-00-Rll" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1206" y="901"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="CrystalBall.png" width="300" height="325"/>
+        <image name="crystal_ball.png" width="25" height="25"/>
+        <image name="help.png" width="25" height="25"/>
+    </resources>
+</document>

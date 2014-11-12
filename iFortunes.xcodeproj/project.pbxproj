@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F635F84119FDAA44003E3065 /* SLJInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F635F84019FDAA44003E3065 /* SLJInputViewController.m */; };
+		F69F60D619FECC6E0011652B /* SLJFortunesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F69F60D519FECC6E0011652B /* SLJFortunesModel.m */; };
+		F69F60D919FECC9B0011652B /* SLJAnswersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F69F60D819FECC9B0011652B /* SLJAnswersTableViewController.m */; };
+		F6AD47A619FD7BF200EC76BB /* crystal_ball.png in Resources */ = {isa = PBXBuildFile; fileRef = F6AD47A219FD7BF200EC76BB /* crystal_ball.png */; };
+		F6AD47A719FD7BF200EC76BB /* crystal_ball@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6AD47A319FD7BF200EC76BB /* crystal_ball@2x.png */; };
+		F6AD47A819FD7BF200EC76BB /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = F6AD47A419FD7BF200EC76BB /* help.png */; };
+		F6AD47A919FD7BF200EC76BB /* help@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6AD47A519FD7BF200EC76BB /* help@2x.png */; };
+		F6D784F219D6241000DC22F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D784F119D6241000DC22F1 /* main.m */; };
+		F6D784F519D6241000DC22F1 /* SLJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D784F419D6241000DC22F1 /* SLJAppDelegate.m */; };
+		F6D784F819D6241000DC22F1 /* SLJFortunesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D784F719D6241000DC22F1 /* SLJFortunesViewController.m */; };
+		F6D784FB19D6241000DC22F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D784F919D6241000DC22F1 /* Main.storyboard */; };
+		F6D784FD19D6241000DC22F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6D784FC19D6241000DC22F1 /* Images.xcassets */; };
+		F6D7850019D6241000DC22F1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6D784FE19D6241000DC22F1 /* LaunchScreen.xib */; };
+		F6D7850C19D6241000DC22F1 /* iFortunesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D7850B19D6241000DC22F1 /* iFortunesTests.m */; };
+		F6D7851C19D625F700DC22F1 /* CrystalBall.png in Resources */ = {isa = PBXBuildFile; fileRef = F6D7851919D625F700DC22F1 /* CrystalBall.png */; };
+		F6D7851D19D625F700DC22F1 /* CrystalBall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6D7851A19D625F700DC22F1 /* CrystalBall@2x.png */; };
+		F6D7851E19D625F700DC22F1 /* Icon(2).png in Resources */ = {isa = PBXBuildFile; fileRef = F6D7851B19D625F700DC22F1 /* Icon(2).png */; };
+		F6F5F2901A0AE9AD00E63D46 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6F5F28F1A0AE9AD00E63D46 /* AudioToolbox.framework */; };
+		F6F5F29C1A0AF3DD00E63D46 /* TaDa.wav in Resources */ = {isa = PBXBuildFile; fileRef = F6F5F29B1A0AF3DD00E63D46 /* TaDa.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6D7850619D6241000DC22F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6D784E419D6241000DC22F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6D784EB19D6241000DC22F1;
+			remoteInfo = iFortunes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F635F83F19FDAA44003E3065 /* SLJInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLJInputViewController.h; sourceTree = "<group>"; };
+		F635F84019FDAA44003E3065 /* SLJInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLJInputViewController.m; sourceTree = "<group>"; };
+		F69F60D419FECC6E0011652B /* SLJFortunesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLJFortunesModel.h; sourceTree = "<group>"; };
+		F69F60D519FECC6E0011652B /* SLJFortunesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLJFortunesModel.m; sourceTree = "<group>"; };
+		F69F60D719FECC9B0011652B /* SLJAnswersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLJAnswersTableViewController.h; sourceTree = "<group>"; };
+		F69F60D819FECC9B0011652B /* SLJAnswersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLJAnswersTableViewController.m; sourceTree = "<group>"; };
+		F6AD47A219FD7BF200EC76BB /* crystal_ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crystal_ball.png; sourceTree = "<group>"; };
+		F6AD47A319FD7BF200EC76BB /* crystal_ball@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "crystal_ball@2x.png"; sourceTree = "<group>"; };
+		F6AD47A419FD7BF200EC76BB /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help.png; sourceTree = "<group>"; };
+		F6AD47A519FD7BF200EC76BB /* help@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "help@2x.png"; sourceTree = "<group>"; };
+		F6D784EC19D6241000DC22F1 /* iFortunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFortunes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6D784F019D6241000DC22F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6D784F119D6241000DC22F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6D784F319D6241000DC22F1 /* SLJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLJAppDelegate.h; sourceTree = "<group>"; };
+		F6D784F419D6241000DC22F1 /* SLJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLJAppDelegate.m; sourceTree = "<group>"; };
+		F6D784F619D6241000DC22F1 /* SLJFortunesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLJFortunesViewController.h; sourceTree = "<group>"; };
+		F6D784F719D6241000DC22F1 /* SLJFortunesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLJFortunesViewController.m; sourceTree = "<group>"; };
+		F6D784FA19D6241000DC22F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6D784FC19D6241000DC22F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F6D784FF19D6241000DC22F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F6D7850519D6241000DC22F1 /* iFortunesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iFortunesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6D7850A19D6241000DC22F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6D7850B19D6241000DC22F1 /* iFortunesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iFortunesTests.m; sourceTree = "<group>"; };
+		F6D7851919D625F700DC22F1 /* CrystalBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CrystalBall.png; sourceTree = "<group>"; };
+		F6D7851A19D625F700DC22F1 /* CrystalBall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CrystalBall@2x.png"; sourceTree = "<group>"; };
+		F6D7851B19D625F700DC22F1 /* Icon(2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon(2).png"; sourceTree = "<group>"; };
+		F6F5F28F1A0AE9AD00E63D46 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F6F5F29B1A0AF3DD00E63D46 /* TaDa.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = TaDa.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6D784E919D6241000DC22F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F5F2901A0AE9AD00E63D46 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6D7850219D6241000DC22F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6D784E319D6241000DC22F1 = {
+			isa = PBXGroup;
+			children = (
+				F6F5F28F1A0AE9AD00E63D46 /* AudioToolbox.framework */,
+				F6D784EE19D6241000DC22F1 /* iFortunes */,
+				F6D7850819D6241000DC22F1 /* iFortunesTests */,
+				F6D784ED19D6241000DC22F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6D784ED19D6241000DC22F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6D784EC19D6241000DC22F1 /* iFortunes.app */,
+				F6D7850519D6241000DC22F1 /* iFortunesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6D784EE19D6241000DC22F1 /* iFortunes */ = {
+			isa = PBXGroup;
+			children = (
+				F6D7851819D625F700DC22F1 /* Resources */,
+				F6D784F319D6241000DC22F1 /* SLJAppDelegate.h */,
+				F6D784F419D6241000DC22F1 /* SLJAppDelegate.m */,
+				F6D784F619D6241000DC22F1 /* SLJFortunesViewController.h */,
+				F6D784F719D6241000DC22F1 /* SLJFortunesViewController.m */,
+				F635F83F19FDAA44003E3065 /* SLJInputViewController.h */,
+				F635F84019FDAA44003E3065 /* SLJInputViewController.m */,
+				F69F60D419FECC6E0011652B /* SLJFortunesModel.h */,
+				F69F60D519FECC6E0011652B /* SLJFortunesModel.m */,
+				F69F60D719FECC9B0011652B /* SLJAnswersTableViewController.h */,
+				F69F60D819FECC9B0011652B /* SLJAnswersTableViewController.m */,
+				F6D784F919D6241000DC22F1 /* Main.storyboard */,
+				F6D784FC19D6241000DC22F1 /* Images.xcassets */,
+				F6D784FE19D6241000DC22F1 /* LaunchScreen.xib */,
+				F6D784EF19D6241000DC22F1 /* Supporting Files */,
+			);
+			path = iFortunes;
+			sourceTree = "<group>";
+		};
+		F6D784EF19D6241000DC22F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6D784F019D6241000DC22F1 /* Info.plist */,
+				F6D784F119D6241000DC22F1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6D7850819D6241000DC22F1 /* iFortunesTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6D7850B19D6241000DC22F1 /* iFortunesTests.m */,
+				F6D7850919D6241000DC22F1 /* Supporting Files */,
+			);
+			path = iFortunesTests;
+			sourceTree = "<group>";
+		};
+		F6D7850919D6241000DC22F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6D7850A19D6241000DC22F1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6D7851819D625F700DC22F1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F6F5F29B1A0AF3DD00E63D46 /* TaDa.wav */,
+				F6AD47A219FD7BF200EC76BB /* crystal_ball.png */,
+				F6AD47A319FD7BF200EC76BB /* crystal_ball@2x.png */,
+				F6AD47A419FD7BF200EC76BB /* help.png */,
+				F6AD47A519FD7BF200EC76BB /* help@2x.png */,
+				F6D7851919D625F700DC22F1 /* CrystalBall.png */,
+				F6D7851A19D625F700DC22F1 /* CrystalBall@2x.png */,
+				F6D7851B19D625F700DC22F1 /* Icon(2).png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6D784EB19D6241000DC22F1 /* iFortunes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6D7850F19D6241000DC22F1 /* Build configuration list for PBXNativeTarget "iFortunes" */;
+			buildPhases = (
+				F6D784E819D6241000DC22F1 /* Sources */,
+				F6D784E919D6241000DC22F1 /* Frameworks */,
+				F6D784EA19D6241000DC22F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iFortunes;
+			productName = iFortunes;
+			productReference = F6D784EC19D6241000DC22F1 /* iFortunes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6D7850419D6241000DC22F1 /* iFortunesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6D7851219D6241000DC22F1 /* Build configuration list for PBXNativeTarget "iFortunesTests" */;
+			buildPhases = (
+				F6D7850119D6241000DC22F1 /* Sources */,
+				F6D7850219D6241000DC22F1 /* Frameworks */,
+				F6D7850319D6241000DC22F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6D7850719D6241000DC22F1 /* PBXTargetDependency */,
+			);
+			name = iFortunesTests;
+			productName = iFortunesTests;
+			productReference = F6D7850519D6241000DC22F1 /* iFortunesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6D784E419D6241000DC22F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SLJ;
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Stanley Jackson";
+				TargetAttributes = {
+					F6D784EB19D6241000DC22F1 = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 7FX28RKSGV;
+					};
+					F6D7850419D6241000DC22F1 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = F6D784EB19D6241000DC22F1;
+					};
+				};
+			};
+			buildConfigurationList = F6D784E719D6241000DC22F1 /* Build configuration list for PBXProject "iFortunes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6D784E319D6241000DC22F1;
+			productRefGroup = F6D784ED19D6241000DC22F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6D784EB19D6241000DC22F1 /* iFortunes */,
+				F6D7850419D6241000DC22F1 /* iFortunesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6D784EA19D6241000DC22F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6D784FB19D6241000DC22F1 /* Main.storyboard in Resources */,
+				F6AD47A919FD7BF200EC76BB /* help@2x.png in Resources */,
+				F6D7850019D6241000DC22F1 /* LaunchScreen.xib in Resources */,
+				F6AD47A819FD7BF200EC76BB /* help.png in Resources */,
+				F6AD47A619FD7BF200EC76BB /* crystal_ball.png in Resources */,
+				F6D7851E19D625F700DC22F1 /* Icon(2).png in Resources */,
+				F6AD47A719FD7BF200EC76BB /* crystal_ball@2x.png in Resources */,
+				F6D784FD19D6241000DC22F1 /* Images.xcassets in Resources */,
+				F6D7851C19D625F700DC22F1 /* CrystalBall.png in Resources */,
+				F6D7851D19D625F700DC22F1 /* CrystalBall@2x.png in Resources */,
+				F6F5F29C1A0AF3DD00E63D46 /* TaDa.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6D7850319D6241000DC22F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6D784E819D6241000DC22F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6D784F819D6241000DC22F1 /* SLJFortunesViewController.m in Sources */,
+				F69F60D919FECC9B0011652B /* SLJAnswersTableViewController.m in Sources */,
+				F69F60D619FECC6E0011652B /* SLJFortunesModel.m in Sources */,
+				F635F84119FDAA44003E3065 /* SLJInputViewController.m in Sources */,
+				F6D784F519D6241000DC22F1 /* SLJAppDelegate.m in Sources */,
+				F6D784F219D6241000DC22F1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6D7850119D6241000DC22F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6D7850C19D6241000DC22F1 /* iFortunesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6D7850719D6241000DC22F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6D784EB19D6241000DC22F1 /* iFortunes */;
+			targetProxy = F6D7850619D6241000DC22F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6D784F919D6241000DC22F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6D784FA19D6241000DC22F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6D784FE19D6241000DC22F1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6D784FF19D6241000DC22F1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6D7850D19D6241000DC22F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F6D7850E19D6241000DC22F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6D7851019D6241000DC22F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iFortunes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6D7851119D6241000DC22F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iFortunes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F6D7851319D6241000DC22F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iFortunesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iFortunes.app/iFortunes";
+			};
+			name = Debug;
+		};
+		F6D7851419D6241000DC22F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iFortunesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iFortunes.app/iFortunes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6D784E719D6241000DC22F1 /* Build configuration list for PBXProject "iFortunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6D7850D19D6241000DC22F1 /* Debug */,
+				F6D7850E19D6241000DC22F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6D7850F19D6241000DC22F1 /* Build configuration list for PBXNativeTarget "iFortunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6D7851019D6241000DC22F1 /* Debug */,
+				F6D7851119D6241000DC22F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6D7851219D6241000DC22F1 /* Build configuration list for PBXNativeTarget "iFortunesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6D7851319D6241000DC22F1 /* Debug */,
+				F6D7851419D6241000DC22F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6D784E419D6241000DC22F1 /* Project object */;
+}
